@@ -4,7 +4,12 @@ using System.Text;
 
 namespace CCL.Security.Identity
 {
-    class Client
+    public class Client
+        : User
     {
+        public Client(int userId, string name)
+            : base(userId, name, nameof(Client))
+        {
+        }
     }
 }
