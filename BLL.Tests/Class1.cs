@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CCL
+namespace BLL.Tests
 {
     public class Class1
     {
